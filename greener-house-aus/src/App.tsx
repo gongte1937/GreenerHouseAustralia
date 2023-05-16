@@ -3,12 +3,13 @@ import {Routes, Route} from "react-router-dom"
 import HomePage from "./pages/HomePage"
 import AboutPage from "./pages/AboutPage"
 import ContactPage from "./pages/ContactPage"
-import NavBar from "./components/NavBar"
+import Header from "./components/Header"
+import Footer from "./components/Footer"
 
 function App() {
   return (
     <>
-      <NavBar />
+      <Header />
       <Container className="mb-4">
         <Routes>
           <Route path="/" element={<HomePage/>}> /</Route>
@@ -16,6 +17,7 @@ function App() {
           <Route path="/contact" element={<ContactPage/>}> /</Route>
         </Routes>
       </Container>
+      <Footer/>
     </>
   )
 }
