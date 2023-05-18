@@ -1,0 +1,12 @@
+// HomePage.scss
+
+.home-page {
+  .services-section {
+    .container {
+      img {
+        width: 100%; /* Set the width to 100% of its container */
+        height: auto; /* Automatically adjust the height to maintain the aspect ratio */
+      }
+    }
+  }
+}

@@ -1,6 +1,12 @@
 import React from 'react';
 import { Container, Button } from 'react-bootstrap';
 
+import img1 from '../assets/img/WechatIMG29.jpeg'
+import img2 from '../assets/img/WechatIMG30.jpeg'
+import img3 from '../assets/img/WechatIMG31.jpeg'
+
+import './HomePage.scss'
+
 const HomePage: React.FC = () => {
   return (
     <div className="home-page">
@@ -16,18 +22,18 @@ const HomePage: React.FC = () => {
           <h2 className="section-title text-center">Our Services</h2>
           <div className="services-grid">
             <div className="service-card text-center">
-              <img src="https://www.shutterstock.com/image-photo/cleaning-home-table-sanitizing-kitchen-260nw-1695842029.jpg" alt="Service 1" />
-              <h3>Residential Cleaning</h3>
+              <img src={img1} alt="Service 1" />
+              <h3>House Cleaning</h3>
               <p>We provide thorough and reliable cleaning services for your home.</p>
             </div>
             <div className="service-card text-center">
-              <img src="/images/service2.jpg" alt="Service 2" />
-              <h3>Commercial Cleaning</h3>
+            <img src={img2} alt="Service 2" />
+              <h3>Airbnb  Cleaning</h3>
               <p>We offer professional cleaning solutions for commercial spaces.</p>
             </div>
             <div className="service-card text-center">
-              <img src="/images/service3.jpg" alt="Service 3" />
-              <h3>Deep Cleaning</h3>
+            <img src={img3} alt="Service 3" />
+              <h3>House Care</h3>
               <p>Our deep cleaning services ensure a spotless and hygienic environment.</p>
             </div>
           </div>
