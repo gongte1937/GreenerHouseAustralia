@@ -1,6 +1,7 @@
 import React from 'react';
-import { Container } from 'react-bootstrap';
+import { Container, Image } from 'react-bootstrap';
 import './Footer.scss'; // Import the CSS file
+import logo from '../assets/img/logo.jpeg'
 
 const Footer: React.FC = () => {
   return (
@@ -8,7 +9,7 @@ const Footer: React.FC = () => {
       <Container>
         <div className="footer-content">
           <div className="footer-logo">
-            <img src="/path/to/logo.png" alt="Logo" />
+          <Image src={logo} rounded width={30} height={25} className='mb-1 me-2' />
             <span className="footer-logo-text">Greener House Australia</span>
           </div>
           <p className="footer-description">

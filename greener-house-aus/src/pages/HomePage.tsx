@@ -12,9 +12,7 @@ const HomePage: React.FC = () => {
     <div className="home-page">
       <header className="hero">
         <div className="hero-content text-center">
-          <h1 className="hero-title">Greener House Australia</h1>
-          <p className="hero-subtitle">Transforming your house into a clean and eco-friendly home</p>
-          <Button href="/contact" variant="primary">Get a Quote</Button>
+          <h2 className="hero-subtitle">Transforming your house into a clean and eco-friendly home</h2>
         </div>
       </header>
       <section className="services-section">
@@ -41,7 +39,7 @@ const HomePage: React.FC = () => {
       </section>
       <section className="testimonials-section">
         <Container>
-          <h2 className="section-title text-center">Testimonials</h2>
+          {/* <h2 className="section-title text-center">Testimonials</h2>
           <div className="testimonials-grid">
             <div className="testimonial-card text-center">
               <img src="/images/testimonial1.jpg" alt="Testimonial 1" />
@@ -57,7 +55,7 @@ const HomePage: React.FC = () => {
                 <cite>- John Doe</cite>
               </blockquote>
             </div>
-          </div>
+          </div> */}
         </Container>
       </section>
     </div>

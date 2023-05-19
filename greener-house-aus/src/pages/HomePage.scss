@@ -1,11 +1,17 @@
 // HomePage.scss
 
 .home-page {
+  font-family: Arial,Helvetica,sans-serif;
+
   .services-section {
     .container {
+      .services-grid{
+        display: flex;
+        flex-direction: row;
+      }
       img {
-        width: 100%; /* Set the width to 100% of its container */
-        height: auto; /* Automatically adjust the height to maintain the aspect ratio */
+        width:400px; /* Set the width to 100% of its container */
+        height: 250px; /* Automatically adjust the height to maintain the aspect ratio */
       }
     }
   }
