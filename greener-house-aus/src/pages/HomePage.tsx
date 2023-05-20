@@ -2,14 +2,18 @@ import React from 'react';
 import { Container, Button } from 'react-bootstrap';
 import img from '../assets/img/WechatIMG29.jpeg'
 
+import img1 from '../assets/img/WechatIMG29.jpeg'
+import img2 from '../assets/img/WechatIMG30.jpeg'
+import img3 from '../assets/img/WechatIMG31.jpeg'
+
+import './HomePage.scss'
+
 const HomePage: React.FC = () => {
   return (
     <div className="home-page">
       <header className="hero">
         <div className="hero-content text-center">
-          <h1 className="hero-title">Greener House Australia</h1>
-          <p className="hero-subtitle">Transforming your house into a clean and eco-friendly home</p>
-          <Button href="/contact" variant="primary">Get a Quote</Button>
+          <h2 className="hero-subtitle">Transforming your house into a clean and eco-friendly home</h2>
         </div>
       </header>
       <section className="services-section">
@@ -17,18 +21,18 @@ const HomePage: React.FC = () => {
           <h2 className="section-title text-center">Our Services</h2>
           <div className="services-grid">
             <div className="service-card text-center">
-              <img src={img} alt="Service 1" />
-              <h3>Residential Cleaning</h3>
+              <img src={img1} alt="Service 1" />
+              <h3>House Cleaning</h3>
               <p>We provide thorough and reliable cleaning services for your home.</p>
             </div>
             <div className="service-card text-center">
-              <img src="/images/service2.jpg" alt="Service 2" />
-              <h3>Commercial Cleaning</h3>
+            <img src={img2} alt="Service 2" />
+              <h3>Airbnb  Cleaning</h3>
               <p>We offer professional cleaning solutions for commercial spaces.</p>
             </div>
             <div className="service-card text-center">
-              <img src="/images/service3.jpg" alt="Service 3" />
-              <h3>Deep Cleaning</h3>
+            <img src={img3} alt="Service 3" />
+              <h3>House Care</h3>
               <p>Our deep cleaning services ensure a spotless and hygienic environment.</p>
             </div>
           </div>
@@ -36,7 +40,7 @@ const HomePage: React.FC = () => {
       </section>
       <section className="testimonials-section">
         <Container>
-          <h2 className="section-title text-center">Testimonials</h2>
+          {/* <h2 className="section-title text-center">Testimonials</h2>
           <div className="testimonials-grid">
             <div className="testimonial-card text-center">
               <img src="/images/testimonial1.jpg" alt="Testimonial 1" />
@@ -52,7 +56,7 @@ const HomePage: React.FC = () => {
                 <cite>- John Doe</cite>
               </blockquote>
             </div>
-          </div>
+          </div> */}
         </Container>
       </section>
     </div>
