@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container, Button } from 'react-bootstrap';
+import img from '../assets/img/WechatIMG29.jpeg'
 
 const HomePage: React.FC = () => {
   return (
@@ -16,7 +17,7 @@ const HomePage: React.FC = () => {
           <h2 className="section-title text-center">Our Services</h2>
           <div className="services-grid">
             <div className="service-card text-center">
-              <img src="https://www.shutterstock.com/image-photo/cleaning-home-table-sanitizing-kitchen-260nw-1695842029.jpg" alt="Service 1" />
+              <img src={img} alt="Service 1" />
               <h3>Residential Cleaning</h3>
               <p>We provide thorough and reliable cleaning services for your home.</p>
             </div>
