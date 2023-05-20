@@ -1,7 +1,5 @@
 import React from 'react';
-import { Container, Button } from 'react-bootstrap';
-import img from '../assets/img/WechatIMG29.jpeg'
-
+import { Container } from 'react-bootstrap';
 import img1 from '../assets/img/WechatIMG29.jpeg'
 import img2 from '../assets/img/WechatIMG30.jpeg'
 import img3 from '../assets/img/WechatIMG31.jpeg'
